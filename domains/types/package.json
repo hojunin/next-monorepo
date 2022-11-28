@@ -1,0 +1,8 @@
+{
+  "name": "@getcha/types",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.3.0",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

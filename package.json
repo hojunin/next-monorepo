@@ -1,0 +1,21 @@
+{
+  "name": "getcha-web-mono",
+  "packageManager": "yarn@3.3.0",
+  "private": true,
+  "workspaces": [
+    "domains/*"
+  ],
+  "scripts": {
+    "car-detail": "yarn workspace car-detail",
+    "campaign": "yarn workspace campaign",
+    "components": "yarn workspace @getcha/components",
+    "modules": "yarn workspace @getcha/modules",
+    "types": "yarn workspace @getcha/types"
+  },
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.4",
+    "prettier": "^2.8.0",
+    "typescript": "4.9.3"
+  }
+}
